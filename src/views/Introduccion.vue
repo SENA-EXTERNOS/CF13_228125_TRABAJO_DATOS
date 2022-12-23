@@ -9,6 +9,22 @@
           i.fas.fa-info
       h1 Introducción
     
+
+    p.mb-5 Apreciado aprendiz, bienvenido a este componente formativo donde abordaremos la temática relacionada con los sistemas de almacenamiento como las bases de datos, las cuales permiten que un sistema de información pueda resguardar los datos e información que desde un entorno gráfico. En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo.    
+
+    figure.mb-5
+        .video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption Video: Leyenda del video
+
+
+
+
+
+
+
+
+
 </template>
 
 <script>
