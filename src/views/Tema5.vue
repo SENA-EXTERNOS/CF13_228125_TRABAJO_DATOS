@@ -78,7 +78,7 @@
             .titulo-sexto.color-primario
               h5 Figura 9.
               span <em> Diagrama entidad-relación</em>
-          figure.pp-
+          figure.pp-.mb-4
               img(src='@/assets/curso/temas/tema5/img-4.svg')
 
       .col-lg-6.px-md-5
@@ -90,7 +90,7 @@
             .titulo-sexto.color-primario
               h5 Figura 10.
               span <em>Integridad referencial bajo código</em>
-          figure.pp-
+          figure.pp-.mb-4
               img(src='@/assets/curso/temas/tema5/img-5.svg')
 
       .col-lg-6.px-md-5
@@ -144,7 +144,7 @@
 
 
     .row.justify-content-center.mb-5.fnd-f5
-      .col-lg-4
+      .col-lg-4.mb-4
         figure
             img(src='@/assets/curso/temas/tema5/img-8.svg')
 

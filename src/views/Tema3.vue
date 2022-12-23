@@ -109,10 +109,9 @@
           .titulo-sexto.color-primario
             h5 Figura 5.
             span  Uso de cláusula <em>null</em>
-        figure.pp-
+        figure.pp-.mb-5
             img(src='@/assets/curso/temas/tema3/img-8.svg')    
       .col-lg-6
- 
         p Como se observa en la figura, el campo señalado segundo nombre, no tiene restricción porque no es obligatorio que todas las personas tengan segundo nombre; en este caso, al retirar la cláusula la base de datos entiende que es un valor no obligatorio en la inserción de los datos.
 
 

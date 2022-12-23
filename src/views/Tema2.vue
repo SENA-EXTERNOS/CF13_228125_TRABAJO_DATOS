@@ -101,7 +101,7 @@
 
     .row.justify-content-center.align-items-center.mb-5.d-flex 
       .col-lg-8
-        SlyderF(columnas="col-6")
+        SlyderF(columnas="col-6").mb-3
           .tarjeta.color-secundario.p-4.img-355
             h2.text-center <em>SELECT</em>
             p.text-center Palabra clave que indica que la sentencia de SQL que queremos ejecutar es una consulta. Selecciona tanto los campos que se enumeran como todos los registros que cumplan con la condición de la parte WHERE. Cuando los atributos se toman de distintas tablas en la parte FROM, también realiza la reunión (join). Por eso se dice que es un lenguaje ortogonal.
