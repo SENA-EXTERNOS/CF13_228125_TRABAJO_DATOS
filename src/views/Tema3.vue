@@ -11,9 +11,13 @@
     .bloque-texto-a.color-secundario.mb-5.fnd-1-.bl-izq
       .row.m-0.align-items-center.justify-content-center
         .col-lg-8.p-4.p-md-4
-          .bloque-texto-a__texto.p-4.mb-3
-            p Los tipos de datos son de alguna manera restricciones que se establecen en los datos que se almacenan en una base de datos y están estrechamente relacionados con la información que se desea almacenar y manipular dentro de la esta. Es importante tener en cuenta que, por ejemplo, existen algunas restricciones precisamente con los tipos de datos; un ejemplo de ello son los datos de tipo int que son datos que solo reciben valores numéricos, es decir, si un usuario trata de almacenar, por ejemplo una letra o palabra, automáticamente la base de datos nos informará de una violación de tipos de datos. 
-            p Es decir, estamos incumpliendo esa restricción de solo insertar datos números en ese tipo de datos, pero en el caso por ejemplo los tipos de datos varchar, estos permiten almacenar datos tales como letras, números y símbolos, pero al momento de tratar de realizar alguna operación con ellos mandará error; por ejemplo, tenemos un dato de tipo varchar y guardamos el valor 5, él permite almacenarlo sin problemas, pero si tratamos de hacer una operación matemática con este campo, no podremos hacerla a menos que realicemos una conversión. 
+          .row.align-items-center
+            .col-lg-12
+              .bloque-texto-a__texto.p-4.mb-3
+                p Los tipos de datos son de alguna manera restricciones que se establecen en los datos que se almacenan en una base de datos y están estrechamente relacionados con la información que se desea almacenar y manipular dentro de la esta. Es importante tener en cuenta que, por ejemplo, existen algunas restricciones precisamente con los tipos de datos; un ejemplo de ello son los datos de tipo int que son datos que solo reciben valores numéricos, es decir, si un usuario trata de almacenar, por ejemplo una letra o palabra, automáticamente la base de datos nos informará de una violación de tipos de datos. 
+            .col-9
+              .bloque-texto-a__texto.px-4.fnd-n          
+                p.mb-0.text-white Es decir, estamos incumpliendo esa restricción de solo insertar datos números en ese tipo de datos, pero en el caso por ejemplo los tipos de datos varchar, estos permiten almacenar datos tales como letras, números y símbolos, pero al momento de tratar de realizar alguna operación con ellos mandará error; por ejemplo, tenemos un dato de tipo varchar y guardamos el valor 5, él permite almacenarlo sin problemas, pero si tratamos de hacer una operación matemática con este campo, no podremos hacerla a menos que realicemos una conversión. 
         .col-lg-4.mb-4.mb-lg-0.py-4
           figure
             img.img-c(src='@/assets/curso/temas/tema3/img-1.svg')

@@ -66,18 +66,24 @@
         .col-lg-9.px-4.p-md-4
           .bloque-texto-a__texto.p-4.mb-4
             p Por otra parte, cuando nos referimos a formatos de archivos estamos hablando de una estructura específica que manejan para realizar las operaciones de almacenamiento y forma de acceso a la información contenida, es decir, cada formato de archivo tiene una estructura propia para realizar el almacenamiento de la información dentro de los mismos. Actualmente existen muchos formatos y tipos de archivos, los cuales, de acuerdo con la necesidad de acceso de la información o requerimientos de la aplicación, permiten guardar información que puede ser posteriormente consultada por el usuario que manipula la aplicación y que requiere utilizar dicha información. 
-          p.pp-l Es importante tener en cuenta que cuando hablamos de almacenamiento en archivos nos referimos al almacenamiento en disco, lo que quiere decir que es información permanente en disco duro.
-    ImagenInfografica.color-acento-contenido.mb-5
-      template(v-slot:imagen)
-        figure
-          img(src='@/assets/curso/temas/tema1/img-5.svg')
+          p.pp-ll Es importante tener en cuenta que cuando hablamos de almacenamiento en archivos nos referimos al almacenamiento en disco, lo que quiere decir que es información permanente en disco duro.
 
-      .tarjeta.color-acento-contenido.p-3(x="32.7%" y="29%" numero="+")
-        p <em>JavaScript Object Notation</em> (JSON) es un formato basado en texto estándar para representar datos estructurados en la sintaxis de objetos de <em>JavaScript</em>; es comúnmente utilizado para transmitir datos en aplicaciones web. Estos archivos también son utilizados para el intercambio de información en aplicaciones web, ya que brindan una estructura muy robusta al momento de organizar la información para después poder ser accedida por el usuario a través de la aplicación; otra característica particular es la cantidad de datos que pueden almacenar sin necesidad de sacrificar grandes volúmenes de espacio en disco duro, es decir, son muy livianos tanto en su ejecución como en su peso y en tamaño. A continuación, veremos un ejemplo de su estructura.
-      .tarjeta.color-acento-contenido.p-3(x="50.1%" y="78.8%" numero="+")
-        p Los archivos con extensión TXT son archivos que se consideran planos, ya que no contienen ningún tipo de formato específico para el almacenamiento de la información; a pesar de esto son utilizados para el almacenamiento de información, ya que ocupan muy poco espacio de almacenamiento en disco. Otra de sus ventajas es la compatibilidad que tienen con prácticamente cualquier sistema operativo, es decir, con los editores de texto que tienen los principales sistemas operativos y tipos de letras de estos mismos; por lo tanto pueden ser editados en prácticamente cualquier sistema. Otra de las particularidades que tienen estos tipos de archivos es que se adaptan a cualquier tipo de estructura, es decir, no llevan un orden específico de tabulación en el documento, pero sí debemos destacar la ventaja de que son muy livianos y tienen compatibilidad con todos los sistemas operativos y aplicaciones del mundo.
-      .tarjeta.color-acento-contenido.p-3(x="67.6%%" y="28.9%" numero="+")
-        p Es un lenguaje de marcado similar a HTML. Significa Extensible Markup Language (Lenguaje de Marcado Extensible) y es una especificación de W3C como lenguaje de marcado de propósito general. Esto significa que, a diferencia de otros lenguajes de marcado, XML no está predefinido, por lo que debes definir tus propias etiquetas. El propósito principal del lenguaje es compartir datos a través de diferentes sistemas, como Internet; como bien sabemos, es muy utilizado en la estructura de archivos para páginas web y maquetación de las mismas, que acompañado con el lenguaje de etiquetado HTML, permiten generar la estructura de las páginas.
+    .fnd-f7.mb-5
+      
+      .row.justify-content-center.align-items-center.mb-5
+        p Conozcamos algunos de estos formatos.
+        .col-lg-8.px-5
+          ImagenInfografica.color-acento-contenido
+            template(v-slot:imagen)
+              figure
+                img.img-265(src='@/assets/curso/temas/tema1/img-5-.svg')
+
+            .tarjeta.color-acento-contenido.p-3(x="18.5%" y="7%" numero="+")
+              p <em>JavaScript Object Notation</em> (JSON) es un formato basado en texto estándar para representar datos estructurados en la sintaxis de objetos de <em>JavaScript</em>; es comúnmente utilizado para transmitir datos en aplicaciones web. Estos archivos también son utilizados para el intercambio de información en aplicaciones web, ya que brindan una estructura muy robusta al momento de organizar la información para después poder ser accedida por el usuario a través de la aplicación; otra característica particular es la cantidad de datos que pueden almacenar sin necesidad de sacrificar grandes volúmenes de espacio en disco duro, es decir, son muy livianos tanto en su ejecución como en su peso y en tamaño. A continuación, veremos un ejemplo de su estructura.
+            .tarjeta.color-acento-contenido.p-3(x="50%" y="92%" numero="+")
+              p Los archivos con extensión TXT son archivos que se consideran planos, ya que no contienen ningún tipo de formato específico para el almacenamiento de la información; a pesar de esto son utilizados para el almacenamiento de información, ya que ocupan muy poco espacio de almacenamiento en disco. Otra de sus ventajas es la compatibilidad que tienen con prácticamente cualquier sistema operativo, es decir, con los editores de texto que tienen los principales sistemas operativos y tipos de letras de estos mismos; por lo tanto pueden ser editados en prácticamente cualquier sistema. Otra de las particularidades que tienen estos tipos de archivos es que se adaptan a cualquier tipo de estructura, es decir, no llevan un orden específico de tabulación en el documento, pero sí debemos destacar la ventaja de que son muy livianos y tienen compatibilidad con todos los sistemas operativos y aplicaciones del mundo.
+            .tarjeta.color-acento-contenido.p-3(x="81.8%" y="6.9%" numero="+")
+              p Es un lenguaje de marcado similar a HTML. Significa Extensible Markup Language (Lenguaje de Marcado Extensible) y es una especificación de W3C como lenguaje de marcado de propósito general. Esto significa que, a diferencia de otros lenguajes de marcado, XML no está predefinido, por lo que debes definir tus propias etiquetas. El propósito principal del lenguaje es compartir datos a través de diferentes sistemas, como Internet; como bien sabemos, es muy utilizado en la estructura de archivos para páginas web y maquetación de las mismas, que acompañado con el lenguaje de etiquetado HTML, permiten generar la estructura de las páginas.
 
     p.mb-5 Ampliemos la información sobre las bases de datos, y para ello, le invitamos a ver el siguiente video.
 

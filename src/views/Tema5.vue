@@ -11,9 +11,12 @@
     .bloque-texto-a.color-secundario.mb-5.fnd-1-.bl-izq
       .row.m-0.align-items-center.justify-content-center
         .col-lg-8.p-4.p-md-4
-          .bloque-texto-a__texto.p-4.mb-3
-            p Las restricciones de integridad que existen en una base de datos se refieren a la protección y mantenimiento de los datos, es decir, cuando hablamos de integridad nos referimos a la capacidad del sistema de mantener los datos de manera coherente y permanente sin que sufran cambios inesperados y que estos cambios que se den estén sujetos a políticas o necesidades del sistema mismo. Un ejemplo de ello sería un cajero automático que debe realizar operaciones todos los días y que estas operaciones deben realizarse de manera precisa y eficiente. 
-            p Adicional a ello, cuando nos referimos a eficiente es un tema relacionado con la integridad, es decir, los descuentos o movimientos que realice deben estar sujetos a programación establecida y no deben cambiar a menos que una política interna de la organización o el programador realice dicho cambio.
+          .row.align-items-center
+            .col-lg-12
+              .bloque-texto-a__texto.p-4.mb-3
+                p Las restricciones de integridad que existen en una base de datos se refieren a la protección y mantenimiento de los datos, es decir, cuando hablamos de integridad nos referimos a la capacidad del sistema de mantener los datos de manera coherente y permanente sin que sufran cambios inesperados y que estos cambios que se den estén sujetos a políticas o necesidades del sistema mismo. Un ejemplo de ello sería un cajero automático que debe realizar operaciones todos los días y que estas operaciones deben realizarse de manera precisa y eficiente. 
+            .col-lg-9.px-4.fnd-n
+              p.mb-0.text-white Adicional a ello, cuando nos referimos a eficiente es un tema relacionado con la integridad, es decir, los descuentos o movimientos que realice deben estar sujetos a programación establecida y no deben cambiar a menos que una política interna de la organización o el programador realice dicho cambio.
         .col-lg-4.mb-4.mb-lg-0.py-4
           figure
             img.img-c(src='@/assets/curso/temas/tema5/img-1.svg')

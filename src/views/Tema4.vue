@@ -84,7 +84,7 @@
       .col-lg-10
         .pp-l.mb-5
           .titulo-sexto.color-primario
-            h5 Tabla 2.
+            h5 Tabla 1.
             span Utilización de la instrucción <em>DROP</em>
         .row.justify-content-center.align-items-center
           .col-lg-10    
@@ -98,17 +98,19 @@
         .cajon.color-primario.p-4.mb-5.fnd-4
           p En la tabla anterior se encuentran las situaciones en las que se aplica la instrucción <b><em>DROP</em></b>; esta es utilizada en caso de que se requiera remover un componente de la base de datos, es importante tener en cuenta que este procedimiento se debe realizar con suma precaución debido a las implicaciones que puede generar tanto en la estructura de la base de datos como en su correcto funcionamiento.
 
+    
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-9
+        h3 <em>Truncate para tablas</em>
+        .cajon-b.color-primario.p-3.mb-5.bl-2
+              p.mb-0 La instrucción <b><em>TRUNCATE</em></b> tiene una de las complicaciones más severas que se pueden aplicar en una base de datos, por eso requiere de un adecuado uso, ya que esta instrucción realiza una afectación directa a los datos almacenados, es decir, cuando se utiliza la instrucción <b><em>TRUNCATE</em></b> no solo se eliminan los datos que se encuentran almacenados en la tabla de la base de datos, sino que este comando reinicia la configuración de campos con numeración. Es decir, si se tiene una tabla con un campo o columna autonumérica y su conteo va por el 450 y se aplica el comando <b><em>TRUNCATE</em></b>, este automáticamente borra todos los datos y reinicia en 1 el valor del campo autonumérico; por eso es importante tener en cuenta al momento de realizar su aplicación, porque puede tener algunas implicaciones adicionales al momento de usarse. A continuación, veremos un ejemplo.
+
+      .col-lg-3.mb-5
+        figure
+            img(src='@/assets/curso/temas/tema4/img-8.svg')
+
+    .fnd-f4-.py-5.mb-5 
       .row.justify-content-center.align-items-center.mb-5
-        .col-lg-9
-          h3 <em>Truncate para tablas</em>
-          .cajon-b.color-primario.p-3.mb-5.bl-2
-                p.mb-0 La instrucción <b><em>TRUNCATE</em></b> tiene una de las complicaciones más severas que se pueden aplicar en una base de datos, por eso requiere de un adecuado uso, ya que esta instrucción realiza una afectación directa a los datos almacenados, es decir, cuando se utiliza la instrucción <b><em>TRUNCATE</em></b> no solo se eliminan los datos que se encuentran almacenados en la tabla de la base de datos, sino que este comando reinicia la configuración de campos con numeración. Es decir, si se tiene una tabla con un campo o columna autonumérica y su conteo va por el 450 y se aplica el comando <b><em>TRUNCATE</em></b>, este automáticamente borra todos los datos y reinicia en 1 el valor del campo autonumérico; por eso es importante tener en cuenta al momento de realizar su aplicación, porque puede tener algunas implicaciones adicionales al momento de usarse. A continuación, veremos un ejemplo.
-
-        .col-lg-3.mb-5
-          figure
-              img(src='@/assets/curso/temas/tema4/img-8.svg')
-
-
         .col-lg-10
           .row.justify-content-center.align-items-center
             .col-lg-6
