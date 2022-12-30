@@ -50,7 +50,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
         h3 Funciones DML 
-        p Las funciones DML se establecen para realizar operaciones requeridas dentro de las bases de datos. Estas operaciones van desde simples procesos de cálculos de operaciones hasta realizar complejos procesos para el mantenimiento de los datos en la base de datos. Aunque todos estos procesos se llevan a cabo de acuerdo a necesidades técnicas que el usuario de la aplicación requiera, dichos procesos pueden estar relacionados con procesos que afectan distintas partes del sistema, por ello se hace necesario en algunas ocasiones establecer un orden específico de ejecución de los mismos para garantizar un correcto funcionamiento en el sistema mismo.
+        p Las funciones <b>DML</b> se establecen para realizar operaciones requeridas dentro de las bases de datos. Estas operaciones van desde simples procesos de cálculos de operaciones hasta realizar complejos procesos para el mantenimiento de los datos en la base de datos. Aunque todos estos procesos se llevan a cabo de acuerdo a necesidades técnicas que el usuario de la aplicación requiera, dichos procesos pueden estar relacionados con procesos que afectan distintas partes del sistema, por ello se hace necesario en algunas ocasiones establecer un orden específico de ejecución de los mismos para garantizar un correcto funcionamiento en el sistema mismo.
         p.mb-4 Para ampliar la información, le invitamos a leer el PDF.
                 
         .row.justify-content-center

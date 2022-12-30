@@ -21,7 +21,7 @@
     .row.justify-content-center.align-items-center.mb-5.fnd-f3.p-5
       .col-lg-6
         h3 <em>Create</em>
-        p La instrucción <em>Create</em> tiene como propósito realizar la creación de la estructura principal de la base de datos y es la que permite realizar el inicio de las sentencias DDL. Sin la creación de la base de datos sería imposible el agregado de los demás componentes que esta tiene; ahora bien, la inicialización de la base de datos es importante en estos sentidos debido a que para todos los motores de bases de datos está vigente y tiene el mismo propósito de la creación de la base de datos. A continuación, veremos un ejemplo de ello.
+        p La instrucción <b><em>Create</em></b> tiene como propósito realizar la creación de la estructura principal de la base de datos y es la que permite realizar el inicio de las sentencias<b><em> DDL.</em></b> Sin la creación de la base de datos sería imposible el agregado de los demás componentes que esta tiene; ahora bien, la inicialización de la base de datos es importante en estos sentidos debido a que para todos los motores de bases de datos está vigente y tiene el mismo propósito de la creación de la base de datos. A continuación, veremos un ejemplo de ello.
       .col-lg-6 
         .pp-l.mb-5
           .titulo-sexto.color-primario
@@ -31,13 +31,13 @@
             img(src='@/assets/curso/temas/tema4/img-2.svg')
 
     .cajon.color-acento-contenido.p-4.mb-5
-      p Se puede visualizar en la figura anterior la utilización del comando CREATE, el cual se encuentra acompañado de otras instrucciones que se utilizan para la creación de la base de datos, que en este caso se llama dbs_RegistroPasajeros, la cual luego se le adiciona una tabla llamada tbl_Pasajeros.
+      p Se puede visualizar en la figura anterior la utilización del comando <em>CREATE</em>, el cual se encuentra acompañado de otras instrucciones que se utilizan para la creación de la base de datos, que en este caso se llama dbs_RegistroPasajeros, la cual luego se le adiciona una tabla llamada tbl_Pasajeros.
 
     .row.justify-content-center.align-items-center.mb-5.fnd-f4
       .col-lg-8
         h3 <em>Alter</em>
         .cajon-b.color-primario.p-3.mb-5.bl-2
-              p.mb-0 La instrucción <em>ALTER</em> se utiliza cuando se desea cambiar el tipo de dato, nombre o relación de un componente de la base de datos; en este caso particular, se podría decir que este comando tiene varios propósitos que están acompañados de acuerdo a la necesidad de cambio que se requiera dentro de la base de datos y de la empresa que requiera dichos cambios; aunque en el proceso de la creación de la base de datos se realizan varias verificaciones y en la mayoría de los casos los cambios que se realizan no están relacionados con problemas de creación o asignación de tipos de datos y/o relaciones, sino que se tratan de actualizaciones en la base de datos donde un dato requiere ser recibido de alguna manera o formato específico, entonces se requiere realizar ciertas modificaciones. A continuación, veremos algunos ejemplos donde aplica la instrucción <em>ALTER</em>.
+              p.mb-0 La instrucción <b><em>ALTER</em></b> se utiliza cuando se desea cambiar el tipo de dato, nombre o relación de un componente de la base de datos; en este caso particular, se podría decir que este comando tiene varios propósitos que están acompañados de acuerdo a la necesidad de cambio que se requiera dentro de la base de datos y de la empresa que requiera dichos cambios; aunque en el proceso de la creación de la base de datos se realizan varias verificaciones y en la mayoría de los casos los cambios que se realizan no están relacionados con problemas de creación o asignación de tipos de datos y/o relaciones, sino que se tratan de actualizaciones en la base de datos donde un dato requiere ser recibido de alguna manera o formato específico, entonces se requiere realizar ciertas modificaciones. A continuación, veremos algunos ejemplos donde aplica la instrucción <b><em>ALTER</em></b>.
 
       .col-lg-4
         figure
@@ -68,7 +68,7 @@
     .row.justify-content-center.align-items-center.p-5
       .col-lg-10
         .cajon.color-acento-botones.p-4
-          p En la figura anterior se puede observar el uso del comando <b><em>ALTER</em></b> para realizar la relación de la tabla tbl_Sexo con la tabla tbl_Pasajeros. Se aplica el comando <em>ALTER</em> a la tabla tbl_Pasajeros debido a que esta es la que debe realizar el cambio de permitir la relación con la tabla tbl_Sexo y de esta manera realizamos una modificación en la tabla tbl_Pasajeros para recibir la relación; es otra de las funcionalidades que tiene la instrucción <em>ALTER</em>.
+          p En la figura anterior se puede observar el uso del comando <b><em>ALTER</em></b> para realizar la relación de la tabla tbl_Sexo con la tabla tbl_Pasajeros. Se aplica el comando <b><em>ALTER</em></b> a la tabla tbl_Pasajeros debido a que esta es la que debe realizar el cambio de permitir la relación con la tabla tbl_Sexo y de esta manera realizamos una modificación en la tabla tbl_Pasajeros para recibir la relación; es otra de las funcionalidades que tiene la instrucción <b><em>ALTER</em></b>.
 
 
     .row.justify-content-center.align-items-center.mb-5.fnd-f4
@@ -84,7 +84,7 @@
       .col-lg-10
         .pp-l.mb-5
           .titulo-sexto.color-primario
-            h5 Tabla 1.
+            h5 Tabla 2.
             span Utilización de la instrucción <em>DROP</em>
         .row.justify-content-center.align-items-center
           .col-lg-10    

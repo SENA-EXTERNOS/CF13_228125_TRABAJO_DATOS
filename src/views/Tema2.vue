@@ -76,7 +76,7 @@
       .row.m-0.align-items-center.justify-content-center
         .col-lg-8.p-4.p-md-5
           .bloque-texto-a__texto.p-4
-            p Continuemos hablando sobre los lenguajes de sistemas de administradores de bases de datos, los cuales son una serie de comandos que permiten realizar las operaciones requeridas en la base de datos. Estas operaciones van desde la creación de la base de datos hasta la manipulación de los datos que se encuentran almacenados; estos lenguajes se basan en estándares establecidos de manera general para la mayoría de los motores de bases de datos que se encuentran en la actualidad, lo que quiere decir que pasar de un motor de bases de datos a otro no implica mayor esfuerzo para el programador o administrador de la base de datos.
+            p Ahora, el lenguaje de consulta estructurado es un estándar de codificación para bases de datos que permiten, mediante una serie de instrucciones precisas, ubicar los datos e información contenida dentro de una base de datos. Es importante tener en cuenta que este lenguaje se crea como un estándar para la mayoría de motores de bases de datos que se manejan hoy día tales como SQLServer, Oracle, Mysql, entre otros. Una de las características más notable de este lenguaje es la sintaxis que maneja, porque se estructura como preguntas que se hacen como si fuese una dirección para encontrar una vivienda. En la siguiente figura se puede observar un ejemplo.
         .col-lg-4.mb-4.mb-lg-0.py-4
           figure
             img.img-c(src='@/assets/curso/temas/tema2/img-6.svg')
@@ -101,9 +101,9 @@
 
     .row.justify-content-center.align-items-center.mb-5.d-flex 
       .col-lg-8
-        SlyderF(columnas="col-6").mb-3
+        SlyderF(columnas="col-lg-12 col-xl-6").mb-3
           .tarjeta.color-secundario.p-4.img-355
-            h2.text-center <em>SELECT</em>
+            h2.text-center.mb-md-0.mb-sm-5.mb-5 <em>SELECT</em>
             p.text-center Palabra clave que indica que la sentencia de SQL que queremos ejecutar es una consulta. Selecciona tanto los campos que se enumeran como todos los registros que cumplan con la condición de la parte WHERE. Cuando los atributos se toman de distintas tablas en la parte FROM, también realiza la reunión (join). Por eso se dice que es un lenguaje ortogonal.
           .tarjeta.color-secundario.p-4.img-355
             h2.text-center <em>FROM  </em>
