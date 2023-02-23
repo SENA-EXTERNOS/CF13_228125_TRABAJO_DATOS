@@ -14,14 +14,14 @@
           .row.align-items-center
             .col-lg-12
               .bloque-texto-a__texto.p-4.mb-3
-                p Los tipos de datos son de alguna manera restricciones que se establecen en los datos que se almacenan en una base de datos y están estrechamente relacionados con la información que se desea almacenar y manipular dentro de la esta. Es importante tener en cuenta que, por ejemplo, existen algunas restricciones precisamente con los tipos de datos; un ejemplo de ello son los datos de tipo <em>int</em> que son datos que solo reciben valores numéricos, es decir, si un usuario trata de almacenar, por ejemplo una letra o palabra, automáticamente la base de datos nos informará de una violación de tipos de datos. 
+                p Los tipos de datos son, de alguna manera, restricciones que se establecen en los datos que se almacenan en una base de datos y están estrechamente relacionados con la información que se desea almacenar y manipular dentro de la esta. Es importante tener en cuenta que, por ejemplo, existen algunas restricciones, precisamente, con los tipos de datos; un ejemplo de esto son los datos de tipo <i>int</i> que son datos que solo reciben valores numéricos, es decir, si un usuario trata de almacenar, por ejemplo, una letra o palabra, automáticamente la base de datos nos informará de una violación de tipos de datos. 
             .col-9
               .bloque-texto-a__texto.px-4.fnd-n          
-                p.mb-0.text-white Es decir, estamos incumpliendo esa restricción de solo insertar datos números en ese tipo de datos, pero en el caso por ejemplo los tipos de datos <em>varchar</em>, estos permiten almacenar datos tales como letras, números y símbolos, pero al momento de tratar de realizar alguna operación con ellos mandará error; por ejemplo, tenemos un dato de tipo <em>varchar</em> y guardamos el valor 5, él permite almacenarlo sin problemas, pero si tratamos de hacer una operación matemática con este campo, no podremos hacerla a menos que realicemos una conversión. 
+                p.mb-0.text-white Es decir, estamos incumpliendo esa restricción de solo insertar datos números en ese tipo de datos, pero en el caso, por ejemplo, de los tipos de datos <i>varchar</i>, estos permiten almacenar datos tales como letras, números y símbolos, pero al momento de tratar de realizar alguna operación con ellos, mandará error; por ejemplo, tenemos un dato de tipo <i>varchar</i> y guardamos el valor 5, él permite almacenarlo sin problemas, pero si tratamos de hacer una operación matemática con este campo, no podremos hacerla, a menos que realicemos una conversión.
         .col-lg-4.mb-4.mb-lg-0.py-4
           figure
             img.img-c(src='@/assets/curso/temas/tema3/img-1.svg')
-    p.mb-5 A continuación, veremos un contexto más detallado sobre esta temática.
+    p.mb-5 A continuación, veremos un contexto más detallado sobre esta temática:
     .row.justify-content-center.mb-5
       .col-lg-4
         figure
@@ -41,7 +41,7 @@
               p.pp-l Algunas veces los datos pueden tener solo un número limitado de valores. Por ejemplo, los únicos valores posibles de una columna pueden ser sí o no. 
 
     p.mb-3 De acuerdo con las necesidades del usuario, los datos se pueden categorizar con diferentes tipos, los cuales generan ciertas restricciones al momento de usarlos. 
-    p.mb-5 A continuación, abordaremos algunas de ellas.
+    p.mb-5 A continuación, abordaremos algunas de ellas:
 
     .row.justify-content-center.mb-5
       .col-lg-8
@@ -69,8 +69,9 @@
       .col-lg-6 
         .pp-l.mb-5
           .titulo-sexto.color-primario
-            h5 Figura 2.
-            span  Comando <em>default</em>
+            h5 Figura 2
+            br
+            span.fst-italic Comando <em>default</em>
         figure.pp-
             img(src='@/assets/curso/temas/tema3/img-4.svg')
 
@@ -78,8 +79,9 @@
     .row.justify-content-center.align-items-center.mb-5.fnd-f3.p-5
         .pp-l.mb-5
           .titulo-sexto.color-primario
-            h5 Figura 3.
-            span  Asignación de fecha comando <em>default</em>
+            h5 Figura 3
+            br
+            span.fst-italic Asignación de fecha comando <em>default</em>
         .row.justify-content-center.align-items-center
           .col-lg-8    
             figure.pp-
@@ -88,12 +90,13 @@
     .row.justify-content-center.align-items-center.mb-5.fnd-f3.p-5
       .col-lg-6
         h3 <em>Null y Not null</em>
-        p Por defecto, las columnas pueden contener valores <em>NULL</em>. Se usa una restricción <em>NOT NULL</em> en SQL para evitar insertar valores<em> NULL </em>en la columna especificada, considerándolo entonces como un valor no aceptado para esa columna. Esto significa que se debe proporcionar un valor válido SQL <em>NOT NULL </em>a esa columna en las instrucciones <em>INSERT</em> o <em>UPDATE</em>, ya que la columna siempre contendrá datos; un ejemplo de ello lo observamos en el siguiente código.
+        p Por defecto, las columnas pueden contener valores NULL. Se usa una restricción NOT NULL en SQL para evitar insertar valores NULL en la columna especificada, considerándolo entonces como un valor no aceptado para esa columna. Esto significa que se debe proporcionar un valor válido SQL NOT NULL a esa columna en las instrucciones INSERT o UPDATE, porque la columna siempre contendrá datos; un ejemplo de esto, lo observamos en la figura.
       .col-lg-6 
         .pp-l.mb-5
           .titulo-sexto.color-primario
-            h5 Figura 4.
-            span  Uso de cláusula <em>Not null</em>
+            h5 Figura 4
+            br
+            span.fst-italic Uso de cláusula <em>Not null</em>
         figure.pp-
             img(src='@/assets/curso/temas/tema3/img-6.svg')
     
@@ -101,7 +104,7 @@
       .row.m-0.align-items-center.justify-content-center
         .col-lg-8.p-4.p-md-5
           .bloque-texto-a__texto.p-4
-            p Como se puede observar en la figura anterior, el uso de la cláusula <em>NOT NULL</em> es para generar una restricción para impedir que se reciban valores nulos o vacíos dentro de los campos seleccionados, por ejemplo en la tabla <em>tbl_pacientes</em> que se observa en el ejemplo, el campo de nombres está como <em>NOT NULL</em> porque para la base de datos no tendría ningún sentido registrar a un paciente sin nombre, de allí nace la necesidad del uso de esta cláusula. Para el caso de que se desee que se puedan recibir valores nulos, simplemente quitamos esta restricción, es decir, retiramos las palabras reservadas <em>NOT NULL</em> y automáticamente la base de datos permitirá almacenar valores <em>NULL</em> dentro de la misma; un ejemplo de ello es cuando se desea registrar a una persona y se solicita primer nombre y segundo nombre, no todas las personas tienen segundo nombre, por lo tanto se le puede dejar la posibilidad que estos sean opcionales y no afecten el almacenamiento de los datos. A continuación, se verá un ejemplo de ello. 
+            p Como se puede observar en la figura anterior, el uso de la cláusula NOT NULL es para generar una restricción e impedir que se reciban valores nulos o vacíos dentro de los campos seleccionados; por ejemplo, en la tabla <b>tbl_Pacientes</b> que se observa en el ejemplo, el campo de nombres está como NOT NULL, porque para la base de datos no tendría ningún sentido registrar a un paciente sin nombre y de allí nace la necesidad del uso de esta cláusula. Para el caso que se desee poder recibir valores nulos, simplemente quitamos esta restricción; es decir, retiramos las palabras reservadas NOT NULL y automáticamente la base de datos permitirá almacenar valores NULL dentro de la misma; un ejemplo de ello es cuando se desea registrar a una persona y se solicita primer nombre y segundo nombre, no todas las personas tienen segundo nombre, por lo tanto se le puede dejar la posibilidad que estos sean opcionales y no afecten el almacenamiento de los datos. Observe la figura: 
         .col-lg-4.mb-4.mb-lg-0.py-4
           figure
             img.img-c(src='@/assets/curso/temas/tema3/img-7.svg')    
@@ -111,8 +114,9 @@
       .col-lg-6 
         .pp-l.mb-5
           .titulo-sexto.color-primario
-            h5 Figura 5.
-            span  Uso de cláusula <em>null</em>
+            h5 Figura 5
+            br
+            span.fst-italic Uso de cláusula <em>null</em>
         figure.pp-.mb-5
             img(src='@/assets/curso/temas/tema3/img-8.svg')    
       .col-lg-6

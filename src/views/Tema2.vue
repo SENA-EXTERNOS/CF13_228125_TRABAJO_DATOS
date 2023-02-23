@@ -17,7 +17,7 @@
           figure
             img.img-c(src='@/assets/curso/temas/tema2/img-1.svg')
 
-    p.mb-5 A continuación, veremos los diferentes lenguajes que se encuentran disponibles para estos procesos.
+    p.mb-5 A continuación, veremos los diferentes lenguajes que se encuentran disponibles para estos procesos:
 
     TabsC.color-acento-botones.mb-5
       .py-4.py-md-5.px-5(titulo="<b></b>DDL").fnd-f1
@@ -76,14 +76,18 @@
       .row.m-0.align-items-center.justify-content-center
         .col-lg-8.p-4.p-md-5
           .bloque-texto-a__texto.p-4
-            p Ahora, el lenguaje de consulta estructurado es un estándar de codificación para bases de datos que permiten, mediante una serie de instrucciones precisas, ubicar los datos e información contenida dentro de una base de datos. Es importante tener en cuenta que este lenguaje se crea como un estándar para la mayoría de motores de bases de datos que se manejan hoy día tales como SQLServer, Oracle, Mysql, entre otros. Una de las características más notable de este lenguaje es la sintaxis que maneja, porque se estructura como preguntas que se hacen como si fuese una dirección para encontrar una vivienda. En la siguiente figura se puede observar un ejemplo.
+            p Ahora, el lenguaje de consulta estructurado es un estándar de codificación para bases de datos que permiten, mediante una serie de instrucciones precisas, ubicar los datos y la información contenidos dentro de una base de datos. Es importante tener en cuenta que este lenguaje se crea como un estándar para la mayoría de motores de bases de datos que se manejan hoy en día, como SQLServer, Oracle, MySQL, entre otros. Una de las características más notable de este lenguaje es la sintaxis que maneja, porque se estructura como preguntas que se hacen como si fuese una dirección para encontrar una vivienda. En la figura se puede observar un ejemplo.
         .col-lg-4.mb-4.mb-lg-0.py-4
           figure
             img.img-c(src='@/assets/curso/temas/tema2/img-6.svg')
 
-
-    figure.mb-5
-      img.img-c(src='@/assets/curso/temas/tema2/img-7.svg')
+    .row.justify-content-center.align-items-center.mb-5.bg.p-5           
+      .col-lg-10
+        .titulo-sexto.color-primario
+          h5 Figura 1
+          br
+          span.fst-italic Sentencia SQL 
+        img.img-c(src='@/assets/curso/temas/tema2/1.png')
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4

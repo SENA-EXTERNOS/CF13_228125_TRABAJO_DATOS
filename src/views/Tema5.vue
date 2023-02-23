@@ -23,12 +23,13 @@
 
     .fnd-f4
       h3 Integridad de unicidad
-      p.mb-5 La regla de integridad de unicidad está relacionada con la definición de clave primaria. Concretamente, establece que toda clave primaria que se elija para una relación no debe tener valores repetidos, como se observa a continuación.
+      p.mb-5 La regla de integridad de unicidad está relacionada con la definición de clave primaria. Concretamente, establece que toda clave primaria que se elija para una relación, no debe tener valores repetidos, como se observa a continuación:
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-10
           .titulo-sexto.color-primario
-            h5 Tabla 3.
-            span Tabla despachos
+            h5 Tabla 3
+            br
+            span.fst-italic Tabla despachos
 
         .col-lg-6            
           table.tbl
@@ -79,8 +80,9 @@
       .col-lg-6
           .pp-l
             .titulo-sexto.color-primario
-              h5 Figura 9.
-              span <em> Diagrama entidad-relación</em>
+              h5 Figura 9
+              br
+              span.fst-italics <em> Diagrama entidad-relación</em>
           figure.pp-.mb-4
               img(src='@/assets/curso/temas/tema5/img-4.svg')
 
@@ -91,8 +93,9 @@
       .col-lg-6
           .pp-l
             .titulo-sexto.color-primario
-              h5 Figura 10.
-              span <em>Integridad referencial bajo código</em>
+              h5 Figura 10
+              br
+              span.fst-italics <em>Integridad referencial bajo código</em>
           figure.pp-.mb-4
               img(src='@/assets/curso/temas/tema5/img-5.svg')
 
@@ -137,7 +140,7 @@
               p.mb-0 Los números de una sucursal no pueden ser negativos.
             li 
               i.fas.fa-angle-right
-              p.mb-0 Las ciudades de sucursales deben provenir de una cierta lista              
+              p.mb-0 Las ciudades de sucursales, deben provenir de una cierta lista.      
       .col-lg-3
         figure.mb-3
           img(src='@/assets/curso/temas/tema5/img-7.svg')

@@ -15,7 +15,7 @@
           img.img-c(src='@/assets/curso/temas/tema6/img-1.svg')
 
     
-    p.mb-5 A continuación, explicaremos estos comandos y su utilización.
+    p.mb-5 A continuación, explicaremos estos comandos y su utilización:
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta fnd-9 fnd-f6")
       .row(titulo="<em>Insert</em>")
@@ -55,7 +55,7 @@
                 
         .row.justify-content-center
           .col-lg-6
-            a.anexo.mb-4(:href="obtenerLink('downloads/Funciones DML.pdf')" target="_blank")
+            a.anexo.mb-4(:href="obtenerLink('downloads/Funciones_DML.pdf')" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
@@ -92,7 +92,7 @@
                 
         .row.justify-content-center
           .col-lg-6
-            a.anexo.mb-4(:href="obtenerLink('downloads/Consultas combinadas DML.pdf')" target="_blank")
+            a.anexo.mb-4(:href="obtenerLink('downloads/Consultas_combinadas_DML.pdf')" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
@@ -111,7 +111,7 @@
 
       .col-lg-8
         p Las sentencias de agregación permiten realizar cálculos específicos dentro de la base de datos, en otras palabras, son funciones que ya se encuentran programadas en la base de datos y que solo hace falta llamarlas para aplicarlas en ella. Es importante que tengamos en cuenta que estas funciones no afectan los datos almacenados en las tablas de la base de datos, sino que utilizan los datos en modo de lectura para poder mostrar al usuario el resultado esperado.
-        p.mb-4 Le invitamos a conocer estas funciones en el PDF.
+        p.mb-4 Le invitamos a conocer estas funciones en el documento Sentencias de agregación.
                 
         .row.justify-content-center
           .col-lg-6
@@ -119,7 +119,7 @@
               .anexo__icono
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
-                p <b>Anexo.</b> Operadores DML.   
+                p <b>Anexo.</b> Sentencias de agregación.   
 
 
 

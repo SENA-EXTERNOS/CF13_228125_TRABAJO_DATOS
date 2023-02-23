@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Trabajo con datos',
     descripcionCurso:
-      'Este componente formativo tiene como objetivo la comprensión del uso de los sistemas de bases de datos y el modelo de diseño establecido para el almacenamiento y resguardo de la información suministrada a través del software.',
+      'Este componente formativo tiene, como objetivo, la comprensión del uso de los sistemas de bases de datos y el modelo de diseño establecido para el almacenamiento y resguardo de la información, suministrada a través del <i>software.</i>',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [

@@ -19,7 +19,7 @@
 
     h3 Operaciones básicas
     p.mb-5 Las operaciones que se pueden realizar con una base de datos NoSQL son: insertar nuevos datos, buscar un dato previamente registrado, operaciones matemáticas según requiera el cliente y generación de búsquedas con patrones específicos. Esto se refiere a que puede realizar consultas complejas teniendo como resultado un poco tiempo de espera, por eso es que son muy utilizadas en aplicaciones que tienen grandes volúmenes de información y al ser de poco peso no se requiere de una infraestructura poderosa para realizar su ejecución.
-    p.mb-5 Tienen varios tipos que reflejan su naturaleza, lo cual veremos a continuación.
+    p.mb-5 Las operaciones básicas, se conforman por diferentes prototipos que reflejan su naturaleza, los cuales veremos a continuación:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8

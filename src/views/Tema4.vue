@@ -12,7 +12,7 @@
       .row.m-0.align-items-center.justify-content-center
         .col-lg-8.p-4.p-md-4
           .bloque-texto-a__texto.p-4.mb-3
-            p El lenguaje DDL, cuyas siglas significan lenguaje de definición de datos, tiene la misión de entregar todas las instrucciones y comandos que permiten la creación de la estructura de la base de datos, las restricciones y relaciones que se pueden dar dentro de la misma. Es importante tener en cuenta que este lenguaje es universal para la mayoría de las bases de datos que se encuentran en la actualidad, esto quiere decir que es un estándar que se utiliza para este propósito. A continuación veremos sus instrucciones y para qué se utiliza cada una de ellas.
+            p El lenguaje DDL, cuyas siglas significan Lenguaje de Definición de Datos, tiene la misión de entregar todas las instrucciones y comandos que permiten la creación de la estructura de la base de datos y las restricciones y relaciones que se pueden dar dentro de la misma. Es importante tener en cuenta que este lenguaje es universal para la mayoría de las bases de datos que se encuentran en la actualidad y esto quiere decir que es un estándar que se utiliza para este propósito. A continuación, veremos sus instrucciones y para qué se utiliza cada una de ellas:
         .col-lg-4.mb-4.mb-lg-0.py-4
           figure
             img.img-c(src='@/assets/curso/temas/tema4/img-1.svg')
@@ -21,12 +21,13 @@
     .row.justify-content-center.align-items-center.mb-5.fnd-f3.p-5
       .col-lg-6
         h3 <em>Create</em>
-        p La instrucción <b><em>Create</em></b> tiene como propósito realizar la creación de la estructura principal de la base de datos y es la que permite realizar el inicio de las sentencias<b><em> DDL.</em></b> Sin la creación de la base de datos sería imposible el agregado de los demás componentes que esta tiene; ahora bien, la inicialización de la base de datos es importante en estos sentidos debido a que para todos los motores de bases de datos está vigente y tiene el mismo propósito de la creación de la base de datos. A continuación, veremos un ejemplo de ello.
+        p La instrucción CREATE tiene como propósito realizar la creación de la estructura principal de la base de datos y es la que permite realizar el inicio de las sentencias DDL. Sin la creación de la base de datos, sería imposible el agregado de los demás componentes que esta tiene; ahora bien, la inicialización de la base de datos es importante en estos sentidos, debido a que para todos los motores de bases de datos, está vigente y tiene el mismo propósito de la creación de la base de datos. Observe el ejemplo:
       .col-lg-6 
         .pp-l.mb-5
           .titulo-sexto.color-primario
-            h5 Figura 6.
-            span  Comando <em>CREATE</em>
+            h5 Figura 6
+            br
+            span.fst-italic Comando <em>CREATE</em>
         figure.pp-
             img(src='@/assets/curso/temas/tema4/img-2.svg')
 
@@ -37,7 +38,7 @@
       .col-lg-8
         h3 <em>Alter</em>
         .cajon-b.color-primario.p-3.mb-5.bl-2
-              p.mb-0 La instrucción <b><em>ALTER</em></b> se utiliza cuando se desea cambiar el tipo de dato, nombre o relación de un componente de la base de datos; en este caso particular, se podría decir que este comando tiene varios propósitos que están acompañados de acuerdo a la necesidad de cambio que se requiera dentro de la base de datos y de la empresa que requiera dichos cambios; aunque en el proceso de la creación de la base de datos se realizan varias verificaciones y en la mayoría de los casos los cambios que se realizan no están relacionados con problemas de creación o asignación de tipos de datos y/o relaciones, sino que se tratan de actualizaciones en la base de datos donde un dato requiere ser recibido de alguna manera o formato específico, entonces se requiere realizar ciertas modificaciones. A continuación, veremos algunos ejemplos donde aplica la instrucción <b><em>ALTER</em></b>.
+              p.mb-0 La instrucción <b>ALTER</b> se utiliza cuando se desea cambiar el tipo de dato, nombre o relación de un componente de la base de datos; en este caso particular, se podría decir que este comando tiene varios propósitos que están acompañados, de acuerdo con la necesidad de cambio que se requiera dentro de la base de datos, y de la empresa que requiera dichos cambios; aunque en el proceso de la creación de la base de datos se realizan varias verificaciones y en la mayoría de los casos los cambios que se realizan no están relacionados con problemas de creación o asignación de tipos de datos y/o relaciones, sino que se tratan de actualizaciones en la base de datos, donde un dato requiere ser recibido de alguna manera o formato específico, entonces se requiere realizar ciertas modificaciones. Observemos en la tabla donde aplica la instrucción <b>ALTER</b>.
 
       .col-lg-4
         figure
@@ -47,20 +48,22 @@
       .col-lg-10
         .pp-l.mb-5
           .titulo-sexto.color-primario
-            h5 Tabla 1.
-            span Sentencia <em>ALTER</em>
+            h5 Tabla 1
+            br
+            span.fst-italic Sentencia <em>ALTER</em>
         .row.justify-content-center.align-items-center
           .col-lg-10    
             figure.pp-
                 img.img-163(src='@/assets/curso/temas/tema4/img-4.svg')
 
-    p.mb-5 En la tabla anterior se visualizan los ejemplos que se pueden aplicar para la instrucción ALTER, la cual permite modificar componentes de la estructura de la base de datos donde se pueden quitar campos, agregar campos y modificar los valores de tipo de datos que esta contiene, aunque existe un propósito que está vinculado con las relaciones de las entidades de la base de datos y se refiere a realizar la conexión de las mismas. Observemos un ejemplo.
+    p.mb-5 En la tabla anterior se visualizan los ejemplos que se pueden aplicar para la instrucción ALTER, la cual permite modificar componentes de la estructura de la base de datos, donde se pueden quitar campos, agregar campos y modificar los valores de tipo de datos que esta contiene, aunque existe un propósito que está vinculado con las relaciones de las entidades de la base de datos y se refiere a realizar la conexión de las mismas. Observemos un ejemplo.
 
     .row.justify-content-center.align-items-center.mb-5.fnd-f3.p-5
       .pp-l.mb-5
         .titulo-sexto.color-primario
-          h5 Figura 7.
-          span  Instrucción <em>ALTER</em> en relación de tablas
+          h5 Figura 7
+          br
+          span.fst-italic Instrucción <em>ALTER</em> en relación de tablas
       .col-lg-8 
         figure.pp-
             img(src='@/assets/curso/temas/tema4/img-5.svg')
@@ -74,8 +77,7 @@
     .row.justify-content-center.align-items-center.mb-5.fnd-f4
       .col-lg-8
         h3 <em>Drop</em>
-        p.mb-0 La instrucción <b><em>DROP </em></b>se utiliza cuando se desea quitar o remover un componente de la base de datos, esto no solo se aplica para tablas y campos, sino que también se puede aplicar para las mismas bases de datos cuando se requiere dicho proceso. A continuación, observemos algunos ejemplos de este proceso.
-
+        p.mb-0 La instrucción <b>DROP</b> se utiliza cuando se desea quitar o remover un componente de la base de datos; esto no solo se aplica para tablas y campos, sino que también se puede aplicar para las mismas bases de datos, cuando se requiere de este proceso. Observemos algunos ejemplos:
       .col-lg-4
         figure
             img(src='@/assets/curso/temas/tema4/img-6.svg')
@@ -84,8 +86,9 @@
       .col-lg-10
         .pp-l.mb-5
           .titulo-sexto.color-primario
-            h5 Tabla 2.
-            span Utilización de la instrucción <em>DROP</em>
+            h5 Tabla 2
+            br
+            span.fst-italic Utilización de la instrucción <em>DROP</em>
         .row.justify-content-center.align-items-center
           .col-lg-10    
             figure.pp-
@@ -101,7 +104,7 @@
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-9
-        h3 <em>Truncate para tablas</em>
+        h3 Truncate para tablas
         .cajon-b.color-primario.p-3.mb-5.bl-2
               p.mb-0 La instrucción <b><em>TRUNCATE</em></b> tiene una de las complicaciones más severas que se pueden aplicar en una base de datos, por eso requiere de un adecuado uso, ya que esta instrucción realiza una afectación directa a los datos almacenados, es decir, cuando se utiliza la instrucción <b><em>TRUNCATE</em></b> no solo se eliminan los datos que se encuentran almacenados en la tabla de la base de datos, sino que este comando reinicia la configuración de campos con numeración. Es decir, si se tiene una tabla con un campo o columna autonumérica y su conteo va por el 450 y se aplica el comando <b><em>TRUNCATE</em></b>, este automáticamente borra todos los datos y reinicia en 1 el valor del campo autonumérico; por eso es importante tener en cuenta al momento de realizar su aplicación, porque puede tener algunas implicaciones adicionales al momento de usarse. A continuación, veremos un ejemplo.
 
@@ -115,8 +118,9 @@
           .row.justify-content-center.align-items-center
             .col-lg-6
                 .titulo-sexto.color-primario
-                  h5 Figura 8.
-                  span  Uso de comando <em>TRUNCATE</em>
+                  h5 Figura 8
+                  br
+                  span.fst-italic Uso de comando <em>TRUNCATE</em>
                 figure.pp-.mb-3
                     img(src='@/assets/curso/temas/tema4/img-9.svg')
 
@@ -125,7 +129,7 @@
 
     h3 Índices
     p.mb-3 Ahora, un índice es una estructura de datos definida sobre una columna de tabla (o varias) y permite localizar de forma rápida las filas de la tabla en base a su contenido en la columna indexada, además de permitir recuperar las filas de la tabla ordenadas por esa misma columna. 
-    p.mb-5 Conozcamos cuáles son estos índices.
+    p.mb-5 Conozcamos cuáles son estos índices:
 
     .row.justify-content-center.mb-5
       .col-lg-4
