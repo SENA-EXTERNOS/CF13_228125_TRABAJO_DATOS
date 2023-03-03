@@ -59,7 +59,6 @@
         figure
             img(src='@/assets/curso/temas/tema5/img-2.svg')      
       .col-lg-9
-        h3 <em>Truncate para tablas</em>
         .cajon-b.color-primario.p-3.mb-5.bl-2
           p.mb-0 En esta relación, dado que la clave primaria está formada por edificio y número, no hay ningún despacho que repita tanto edificio como número de otro despacho. Sin embargo, sí se repiten valores de edificio (por ejemplo, Marina); y también se repiten valores de número (120). A pesar de ello, el edificio y el número no se repiten nunca al mismo tiempo.
           p La regla de integridad de unicidad de la clave primaria establece que si el conjunto de atributos CP es la clave primaria de una relación R, entonces la extensión de R no puede tener en ningún momento dos tuplas con la misma combinación de valores para los atributos de CP.

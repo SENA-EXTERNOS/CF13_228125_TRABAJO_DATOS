@@ -41,18 +41,18 @@
     p Existen muchos gestores de bases de datos NoSQL.
     p A continuación, veremos los gestores que existen y su funcionalidad:         
 
-    ImagenInfografica.color-acento-contenido.my-5
+    ImagenInfografica.color-acento-contenido.my-5.bg2.p-5
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/temas/tema1/img-3.svg')
 
-      .tarjeta.color-acento-contenido.p-3(x="13.1%" y="74.4%" numero="+")
+      .tarjeta.color-acento-contenido.p-3(x="13.1%" y="83.5%" numero="+")
         p Base de datos creada por Apache del tipo clave-valor. Dispone de un lenguaje propio para realizar consultas CQL (Cassandra Query Language). Cassandra es una aplicación Java, por lo que puede correr en cualquier plataforma que cuente con la JVM. Es multiplataforma.
-      .tarjeta.color-acento-contenido.p-3(x="37.7%" y="74.3%" numero="+")
+      .tarjeta.color-acento-contenido.p-3(x="37.7%" y="83.5%" numero="+")
         p Base de datos creada por Salvatore Sanfilippo y Pieter Noordhuis y está apoyada por VMWare. Se trata de una base de datos del tipo clave-valor. Se puede imaginar como un array gigante en memoria para almacenar datos que pueden ser cadenas, hashes, conjuntos de datos o listas. Tiene la ventaja de que sus operaciones son atómicas y persistentes. Sin embargo, Redis no permite realizar consultas, solo se pueden insertar y obtener datos, además de las operaciones comunes sobre conjuntos (diferencia, unión e inserción). Creado en ANSI C, por lo tanto, es compatible y funciona sin problemas en sistemas Unix, Linux y sus derivados, Solaris, OS/X; sin embargo, no existe soporte oficial para plataformas Windows
-      .tarjeta.color-acento-contenido.p-3(x="62.5%" y="74.3%" numero="+")
+      .tarjeta.color-acento-contenido.p-3(x="62.5%" y="83.5%" numero="+")
         p Base de datos creada por MongoDB Inc. (anteriormente 10gen), del tipo orientada a documentos, de esquema libre, es decir, que cada entrada puede tener un esquema de datos diferente que nada tenga que ver con el resto de registros almacenados. Es bastante rápida a la hora de ejecutar sus operaciones, ya que maneja datos binarios. En poco tiempo, MongoDB se ha convertido en una de las bases de datos NoSQL favoritas por los desarrolladores. Está escrita en lenguaje C++. Para el almacenamiento de la información, utiliza un sistema propio de documento conocido con el nombre BSON, que es una evolución del formato JSON pero con la peculiaridad de que puede almacenar datos representados de forma binaria. Está disponible para los sistemas operativos Windows, Linux, OS/X y Solaris.
-      .tarjeta.color-acento-contenido.p-3(x="86.8%" y="74.4%" numero="+")
+      .tarjeta.color-acento-contenido.p-3(x="86.8%" y="83.5%" numero="+")
         p Sistema creado por Apache y escrito en el lenguaje Erlang que funciona en la mayoría de sistemas POSIX (multiplataforma), incluyendo GNU/Linux y [[macOS|OS/X], además de sistemas Windows. Como características más importantes cabe destacar el uso de RESTful HTTP API como interfaz y JavaScript como principal lenguaje de interacción. Para el almacenamiento de los datos se utilizan archivos JSON. Permite la creación de vistas, que son el mecanismo que permite la combinación de documentos para retornar valores de varios documentos, es decir, CouchDB permite la realización de las operaciones JOIN típicas de SQL.
 
     .cajon.color-secundario.p-4.mb-5.fnd-6

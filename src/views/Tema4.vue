@@ -104,7 +104,7 @@
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-9
-        h3 Truncate para tablas
+        h3 <i>Truncate</i> para tablas
         .cajon-b.color-primario.p-3.mb-5.bl-2
               p.mb-0 La instrucción <b><em>TRUNCATE</em></b> tiene una de las complicaciones más severas que se pueden aplicar en una base de datos, por eso requiere de un adecuado uso, ya que esta instrucción realiza una afectación directa a los datos almacenados, es decir, cuando se utiliza la instrucción <b><em>TRUNCATE</em></b> no solo se eliminan los datos que se encuentran almacenados en la tabla de la base de datos, sino que este comando reinicia la configuración de campos con numeración. Es decir, si se tiene una tabla con un campo o columna autonumérica y su conteo va por el 450 y se aplica el comando <b><em>TRUNCATE</em></b>, este automáticamente borra todos los datos y reinicia en 1 el valor del campo autonumérico; por eso es importante tener en cuenta al momento de realizar su aplicación, porque puede tener algunas implicaciones adicionales al momento de usarse. A continuación, veremos un ejemplo.
 

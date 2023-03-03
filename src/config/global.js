@@ -218,6 +218,16 @@ export default {
         'Carrasquel, S., Coronado, D., Rodríguez, R. & Tineo, L. (2018). Gestión De Datos Difusos: Atributos Tipo 2 Y Tipo 3 En Bases De Datos Relacionales. <em>Publicaciones En Ciencias Y Tecnología,</em> 12(2), p. 83-95.',
       link: 'https://dialnet.unirioja.es/descarga/articulo/6641662.pdf',
     },
+    {
+      referencia:
+        'Przygodzki-Lionet, N., Mignol, M. & Cadet, F. (2019). <i>Puntos de vista de los estudiantes sobre la aceptabilidad de bases de datos del gobierno para la identificación de personas: un estudio piloto</i>.',
+      link: 'https://repository.javeriana.edu.co/handle/10554/42321',
+    },
+    {
+      referencia:
+        'R. Domínguez Mónaco. "Reseña De Libro: Hazte Gurú De Base De Datos. SQL Diseño Y Normalización. Por L. Ponte Cordero." Publicaciones En Ciencias Y Tecnologia 12.1 (2018): 43-46. Web.',
+      link: 'https://revistas.uclave.org/index.php/pcyt/article/view/836/847',
+    },
   ],
   creditos: {
     liderEquipo: [

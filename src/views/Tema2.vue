@@ -107,19 +107,19 @@
       .col-lg-8
         SlyderF(columnas="col-lg-12 col-xl-6").mb-3
           .tarjeta.color-secundario.p-4.img-355
-            h2.text-center.mb-md-0.mb-sm-5.mb-5 <em>SELECT</em>
+            h4.text-center.mb-md-0.mb-sm-5.mb-5 <em>SELECT</em>
             p.text-center Palabra clave que indica que la sentencia de SQL que queremos ejecutar es una consulta. Selecciona tanto los campos que se enumeran como todos los registros que cumplan con la condición de la parte WHERE. Cuando los atributos se toman de distintas tablas en la parte FROM, también realiza la reunión (join). Por eso se dice que es un lenguaje ortogonal.
           .tarjeta.color-secundario.p-4.img-355
-            h2.text-center <em>FROM  </em>
-            p.text-center Indica la tabla (o tablas) desde la que queremos recuperar los datos. En el caso de que exista más de una tabla se denomina a la consulta "consulta combinada" o reunión join. En las consultas combinadas es necesario aplicar una condición de combinación a través de una cláusula WHERE.     
+            h4.text-center <em>FROM</em>
+            p.text-center Indica la tabla (o tablas) desde la que queremos recuperar los datos. En el caso de que exista más de una tabla se denomina a la consulta "consulta combinada" o reunión join. En las consultas combinadas es necesario aplicar una condición de combinación a través de una cláusula WHERE.    
           .tarjeta.color-secundario.p-4.img-355
-            h2.text-center <em>WHERE</em>
+            h4.text-center <em>WHERE</em>
             p.text-center Especifica una condición que debe cumplirse para que los datos sean devueltos por la consulta. Admite los operadores lógicos AND y OR además de los relacionales y otros.
           .tarjeta.color-secundario.p-4.img-355
-            h2.text-center <em>GROUP BY</em>
-            p.text-center Especifica una condición que debe cumplirse para que los datos sean devueltos por la consulta. Admite los operadores lógicos AND y OR además de los relacionales y otros.   
+            h4.text-center <em>GROUP BY</em>
+            p.text-center Especifica la agrupación que se da a los datos. Se usa siempre en combinación con funciones agregadas. 
           .tarjeta.color-secundario.p-4.img-355
-            h2.text-center <em>ORDER BY</em>
+            h4.text-center <em>ORDER BY</em>
             p.text-center Presenta el resultado ordenado por las columnas indicadas. El orden puede expresarse con ASC (orden ascendente) y DESC (orden descendente). El valor predeterminado es ASC.
                               
       .col-lg-4
