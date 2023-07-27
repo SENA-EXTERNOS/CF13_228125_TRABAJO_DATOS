@@ -148,13 +148,6 @@ export default {
     {
       tema: 'Lenguajes de definición de datos DDL',
       referencia:
-        'EscuelaIT. (2013). <em>SQL – Lenguaje de Definición de Datos (DDL) </em>(video). YouTube. ',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=sRc',
-    },
-    {
-      tema: 'Lenguajes de definición de datos DDL',
-      referencia:
         'Robles, J. (2021).<em> Lenguaje de Definición de Datos (DDL) </em>(video). YouTube. ',
       tipo: 'Artículo',
       link: 'https://www.youtube.com/watch?v=7KQbw8v8jN8',
