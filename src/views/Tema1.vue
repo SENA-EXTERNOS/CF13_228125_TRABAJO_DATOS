@@ -13,7 +13,7 @@
       .row.m-0.align-items-center.justify-content-between
         .col-lg-8.p-4.p-md-5
           .bloque-texto-a__texto.p-4
-            p Para iniciar, aprenderemos que los gestores de bases de datos son aplicativos que permiten realizar las tareas de administración y mantenimiento de datos, de manera sencilla y eficiente. Se caracterizan por tener interfaces amigables y funciones establecidas para que el proceso de manutención de las mismas, sea sencillo. Actualmente, en el mercado, existen muchos tipos de gestores de bases de datos lo que implica que, en la mayoría de las ocasiones, se tenga que debatir cuál es el mejor para implementar en el ámbito empresarial; lo que muchas veces no se toma en cuenta, es el tipo de motor de bases de datos,que se desea operar y la infraestructura que se utilizará.
+            p Para iniciar, aprenderemos que los gestores de bases de datos son aplicativos que permiten realizar las tareas de administración y mantenimiento de datos, de manera sencilla y eficiente. Se caracterizan por tener interfaces amigables y funciones establecidas para que el proceso de manutención de las mismas, sea sencillo. Actualmente, en el mercado, existen muchos tipos de gestores de bases de datos lo que implica que, en la mayoría de las ocasiones, se tenga que debatir cuál es el mejor para implementar en el ámbito empresarial; lo que muchas veces no se toma en cuenta, es el tipo de motor de bases de datos, que se desea operar y la infraestructura que se utilizará.
         .col-lg-4.mb-4.mb-lg-0
           figure
             img(src='@/assets/curso/temas/tema1/img-1.svg')

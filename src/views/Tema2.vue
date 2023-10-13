@@ -63,11 +63,11 @@
               img.img-c(src='@/assets/curso/temas/tema2/img-4.svg')
       .py-4.py-md-5(titulo="VDL").fnd-f1.px-5
         .row
-          .col-md-5.mb-4.mb-md-0
-            p Lenguaje de Definición de Vistas.  Es utilizado por el DBMS para especificar las vistas del usuario y sus correspondencias con el esquema conceptual. En las Bases de Datos Relacionales, el SQL representa una combinación de los anteriores, es decir, este lenguaje permite agrupar lo mejor de los antes mencionados dando como resultado un proceso de ilustración de información para el usuario; muchos de estos se pueden utilizan en la muestra de reportes y vistas al usuario final. Este lenguaje también es muy empleado para realizar las diferentes consultas de datos que se generan dentro de un sistema de bases de datos y luego traducirlas en información de utilidad para el usuario final, adicional a ello cuenta en la mayoría de gestores de bases de datos con interfaces muy amigables para su generación como se muestra en la siguiente figura:
-          .col-md-7
+          .col-md-6.mb-4.mb-md-0
+            p Lenguaje de Definición de Vistas.  Es utilizado por el DBMS para especificar las vistas del usuario y sus correspondencias con el esquema conceptual. En las Bases de Datos Relacionales, el SQL representa una combinación de los anteriores, es decir, este lenguaje permite agrupar lo mejor de los antes mencionados dando como resultado un proceso de ilustración de información para el usuario; muchos de estos se pueden utilizan en la muestra de reportes y vistas al usuario final. Este lenguaje también es muy empleado para realizar las diferentes consultas de datos que se generan dentro de un sistema de bases de datos y luego traducirlas en información de utilidad para el usuario final, adicional a ello cuenta en la mayoría de gestores de bases de datos con interfaces muy amigables para su generación.
+          .col-md-6
             figure
-              img.img-c(src='@/assets/curso/temas/tema2/img-5.svg')
+              img.img-c(src='@/assets/curso/temas/imgs/CF13.jpg')
     
     h3.mb-5 Lenguaje estructurado de consulta (SQL)
 

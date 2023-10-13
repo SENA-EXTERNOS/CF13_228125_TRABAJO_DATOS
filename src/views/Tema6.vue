@@ -22,13 +22,21 @@
           p.pp-l El comando <b><em>INSERT</em></b> se utiliza cuando se requiere realizar el registro de una nueva fila en la base de datos: este comando es el que permite alimentar la base de datos y consta de algunas consideraciones en su sintaxis para tener en cuenta al momento de utilizarlo. Otro aspecto importante es que la sentencia <b><em>INSERT</em></b> puede llegar a entrar en conflicto con las llaves de conexión de la base de datos, un ejemplo de ello son las llaves primarias que se colocan en las tablas para evitar que un registro duplique su información. Al momento de realizar la inserción se debe verificar que este valor no sea duplicado, pues generará un error en la base de datos, ya que las llaves primarias no permiten duplicidad de datos. A continuación, veremos una corta explicación sobre esto.
           .row.justify-content-center.mb-4
             .col-lg-4
+              .titulo-sexto.color-primario.mb-2
+                h5 Figura 11
+                br
+                span.fst-italics <em> Ejemplo insert</em>
               figure
                 img.img-c(src='@/assets/curso/temas/tema6/img-2.svg')
-          p.pp-l En la imagen se puede observar la sintaxis que aplica la sentencia <b><em>INSERT</em></b>: primero se colocan las instrucciones <em>insert</em> into que le indican al motor de la base de datos que es una instrucción que colocará un nuevo registro dentro de la base de datos; luego se indica la tabla donde se insertarán los datos seguido de los campos o columnas que posee la tabla en el orden específico de inserción; luego la instrucción values indicando los valores que serán insertados en el orden específico que requiere la tabla.                
+          p.pp-l En la imagen se puede observar la sintaxis que aplica la sentencia #[b #[em INSERT]]: primero se colocan las instrucciones #[em insert into] que le indican al motor de la base de datos que es una instrucción que colocará un nuevo registro dentro de la base de datos; luego se indica la tabla donde se insertarán los datos seguido de los campos o columnas que posee la tabla en el orden específico de inserción; luego la instrucción #[em values] indicando los valores que serán insertados en el orden específico que requiere la tabla.                
       .row(titulo="<em>Update</em>")
           p.pp-l La instrucción<b><em> UPDATE</em></b> permite realizar la actualización de la información que previamente ha sido registrada en la tabla de la base de datos. Esto es muy útil en el sentido de que permite que se puedan realizar cambios en la información almacenada luego de realizar el registro de la misma, es importante tener en cuenta que al momento de realizar la actualización se debe verificar que la fila que se está actualizando sea la que requiere el cambio; esto lo podemos especificar con la instrucción <em>where</em> donde se coloca la llave primaria para realizar esta operación. A continuación, se ilustra la manera como se utiliza este comando.
           .row.justify-content-center.mb-4
-            .col-lg-4
+            .col-lg-5
+              .titulo-sexto.color-primario.mb-2
+                h5 Figura 12
+                br
+                span.fst-italics <em> Ejemplo update</em>
               figure
                 img.img-c(src='@/assets/curso/temas/tema6/img-3.svg')
           p.pp-l Como se observa en la imagen, la sintaxis que sigue este comando es la siguiente: primero se indica el comando <b><em>UPDATE</em></b> para que el motor de la base de datos comprenda que la operación a realizar es de actualización de datos; luego se indica la tabla que contiene la información a actualizar seguido de la instrucción <b><em>SET</em></b>, la cual permite colocar el campo o en algunos casos los campos que recibirán el nuevo dato; luego se procede a colocar la condición con la cláusula <b><em>WHERE</em></b>, donde regularmente se utiliza la llave primaria, ya que esta no contiene dato repetido y se utiliza como referente para la actualización.
@@ -36,9 +44,13 @@
       .row(titulo="<em>Delete</em>")
           p.pp-l El comando <b><em>DELETE</em></b> se utiliza en los casos en que se desea realizar la eliminación de una fila dentro de una tabla de la base de datos. Es importante tener en cuenta que este comando le aplica las mismas características del comando <b><em>UPDATE</em></b>, donde se debe especificar la fila que se debe eliminar utilizando la sentencia <b><em>WHERE</em></b> con la llave primaria de esa fila. Esto se hace con el fin de prevenir que se eliminen todos los registros de la base de datos; en el caso de no especificar dicha fila el motor de la base de datos interpretará que se hará una eliminación de todas las filas que este posee. A continuación, veremos un ejemplo sobre esta apreciación.
           .row.justify-content-center.mb-4
-            .col-lg-4
+            .col-lg-6
+              .titulo-sexto.color-primario.mb-2
+                h5 Figura 13
+                br
+                span.fst-italics <em> Ejemplo delete</em>
               figure
-                img.img-c(src='@/assets/curso/temas/tema6/img-4.svg')
+                img.img-c(src='@/assets/curso/temas/imgs/CF13-8.png')
           p.pp-l Como se puede apreciar en la imagen, se realiza la ejecución del comando <b><em>DELETE</em></b>, el cual tiene la siguiente sintaxis: primero se procede a colocar el comando <b><em>DELETE</em></b> para indicarle al motor de la base de datos que se ejecutará una sentencia de eliminación de fila; luego se procede a colocar la instrucción <b><em>FROM</em></b>, la cual indica el origen de los datos que se van a eliminar seguido del nombre de la tabla de donde provienen esos datos; adicional a ello se debe utilizar la sentencia <b><em>WHERE</em></b> como habíamos comentado anteriormente, que se utiliza también en la sentencia <b><em>UPDATE</em></b> para especificar mediante la llave primaria la fila a la que corresponde el dato que se desea eliminar; esto con el fin de que no se eliminen todos los registros de la tabla, sino el que pertenece a la fila que se desea afectar. 
       .row(titulo="<em>Merge</em>")
           p.pp-l La sentencia <b><em>MERGE</em></b> actualiza un destino (una tabla o vista, o las tablas o vistas subyacentes de una selección completa) utilizando datos de una fuente (resultado de una referencia de tabla).

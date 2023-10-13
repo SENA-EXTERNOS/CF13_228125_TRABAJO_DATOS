@@ -149,7 +149,7 @@ export default {
       tema: 'Lenguajes de definición de datos DDL',
       referencia:
         'Robles, J. (2021).<em> Lenguaje de Definición de Datos (DDL) </em>(video). YouTube. ',
-      tipo: 'Artículo',
+      tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=7KQbw8v8jN8',
     },
   ],

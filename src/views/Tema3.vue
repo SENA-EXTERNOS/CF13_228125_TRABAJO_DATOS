@@ -14,7 +14,7 @@
           .row.align-items-center
             .col-lg-12
               .bloque-texto-a__texto.p-4.mb-3
-                p Los tipos de datos son, de alguna manera, restricciones que se establecen en los datos que se almacenan en una base de datos y están estrechamente relacionados con la información que se desea almacenar y manipular dentro de la esta. Es importante tener en cuenta que, por ejemplo, existen algunas restricciones, precisamente, con los tipos de datos; un ejemplo de esto son los datos de tipo <i>int</i> que son datos que solo reciben valores numéricos, es decir, si un usuario trata de almacenar, por ejemplo, una letra o palabra, automáticamente la base de datos nos informará de una violación de tipos de datos. 
+                p Los tipos de datos son, de alguna manera, restricciones que se establecen en los datos que se almacenan en una base de datos y están estrechamente relacionados con la información que se desea almacenar y manipular dentro de la misma. Es importante tener en cuenta que, por ejemplo, existen algunas restricciones, precisamente, con los tipos de datos; un ejemplo de esto son los datos de tipo <i>int</i> que son datos que solo reciben valores numéricos, es decir, si un usuario trata de almacenar, por ejemplo, una letra o palabra, automáticamente la base de datos nos informará de una violación de tipos de datos. 
             .col-9
               .bloque-texto-a__texto.px-4.fnd-n          
                 p.mb-0.text-white Es decir, estamos incumpliendo esa restricción de solo insertar datos números en ese tipo de datos, pero en el caso, por ejemplo, de los tipos de datos <i>varchar</i>, estos permiten almacenar datos tales como letras, números y símbolos, pero al momento de tratar de realizar alguna operación con ellos, mandará error; por ejemplo, tenemos un dato de tipo <i>varchar</i> y guardamos el valor 5, él permite almacenarlo sin problemas, pero si tratamos de hacer una operación matemática con este campo, no podremos hacerla, a menos que realicemos una conversión.
@@ -92,13 +92,13 @@
         h3 <em>Null y Not null</em>
         p Por defecto, las columnas pueden contener valores NULL. Se usa una restricción NOT NULL en SQL para evitar insertar valores NULL en la columna especificada, considerándolo entonces como un valor no aceptado para esa columna. Esto significa que se debe proporcionar un valor válido SQL NOT NULL a esa columna en las instrucciones INSERT o UPDATE, porque la columna siempre contendrá datos; un ejemplo de esto, lo observamos en la figura.
       .col-lg-6 
-        .pp-l.mb-5
+        .pp-l.mb-1
           .titulo-sexto.color-primario
             h5 Figura 4
             br
             span.fst-italic Uso de cláusula <em>Not null</em>
         figure.pp-
-            img(src='@/assets/curso/temas/tema3/img-6.svg')
+            img(src='@/assets/curso/temas/imgs/cf13-2.png')
     
     .bloque-texto-a.color-secundario.mb-5.fnd-3-.bl-izq
       .row.m-0.align-items-center.justify-content-center
@@ -118,7 +118,7 @@
             br
             span.fst-italic Uso de cláusula <em>null</em>
         figure.pp-.mb-5
-            img(src='@/assets/curso/temas/tema3/img-8.svg')    
+            img(src='@/assets/curso/temas/imgs/cf13-3.png')    
       .col-lg-6
         p Como se observa en la figura, el campo señalado segundo nombre, no tiene restricción porque no es obligatorio que todas las personas tengan segundo nombre; en este caso, al retirar la cláusula la base de datos entiende que es un valor no obligatorio en la inserción de los datos.
 

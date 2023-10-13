@@ -83,7 +83,7 @@
               br
               span.fst-italics <em> Diagrama entidad-relación</em>
           figure.pp-.mb-4
-              img(src='@/assets/curso/temas/tema5/img-4.svg')
+              img(src='@/assets/curso/temas/imgs/CF13-6.png')
 
       .col-lg-6.px-md-5
         p Como se puede observar en la figura anterior, el diagrama entidad - relación indica que existe una restricción de integridad referencia, en este caso la llave PKCodigo de la tabla tbl_Asignatura está relacionada con la llave foránea de la tabla tbl_Calificaciones; por lo tanto en la consulta se debe crear esta comparación para que pueda asociar las asignaturas con las calificaciones que esta recibe. Adicional a ello vemos que la tabla tbl_Estudiantes está relacionada con la tabla tbl_Calificaciones por medio de la llave foránea, esto quiere decir que un estudiante puede recibir varias calificaciones de diferentes asignaturas; esto es lo que se conoce como integridad referencial. A continuación, veremos la consulta SQL utilizando la integridad referencial para recuperar los datos y relacionarlos entre sí.

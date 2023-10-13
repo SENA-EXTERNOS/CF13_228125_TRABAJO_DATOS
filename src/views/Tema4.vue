@@ -29,7 +29,7 @@
             br
             span.fst-italic Comando <em>CREATE</em>
         figure.pp-
-            img(src='@/assets/curso/temas/tema4/img-2.svg')
+            img(src='@/assets/curso/temas/imgs/cf13-4.png')
 
     .cajon.color-acento-contenido.p-4.mb-5
       p Se puede visualizar en la figura anterior la utilización del comando <em>CREATE</em>, el cual se encuentra acompañado de otras instrucciones que se utilizan para la creación de la base de datos, que en este caso se llama dbs_RegistroPasajeros, la cual luego se le adiciona una tabla llamada tbl_Pasajeros.
@@ -59,14 +59,13 @@
     p.mb-5 En la tabla anterior se visualizan los ejemplos que se pueden aplicar para la instrucción ALTER, la cual permite modificar componentes de la estructura de la base de datos, donde se pueden quitar campos, agregar campos y modificar los valores de tipo de datos que esta contiene, aunque existe un propósito que está vinculado con las relaciones de las entidades de la base de datos y se refiere a realizar la conexión de las mismas. Observemos un ejemplo.
 
     .row.justify-content-center.align-items-center.mb-5.fnd-f3.p-5
-      .pp-l.mb-5
+      .col-lg-8 
         .titulo-sexto.color-primario
           h5 Figura 7
           br
           span.fst-italic Instrucción <em>ALTER</em> en relación de tablas
-      .col-lg-8 
         figure.pp-
-            img(src='@/assets/curso/temas/tema4/img-5.svg')
+            img(src='@/assets/curso/temas/imgs/cf13-5.png')
 
     .row.justify-content-center.align-items-center.p-5
       .col-lg-10
